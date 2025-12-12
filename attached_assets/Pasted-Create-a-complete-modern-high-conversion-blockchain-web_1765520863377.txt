@@ -1,0 +1,173 @@
+Create a complete, modern, high-conversion blockchain website inspired by the design, layout, and theme style of wallstreetchain.com. Maintain the same visual energy, dark futuristic theme, typography style, hero animations, CTA placements, clean sections, and crypto-branding vibe, but do not copy any text or copyrighted assets. All content must be original.
+
+Website Style & Theme Requirements
+
+Dark, premium, futuristic UI (deep navy/black backgrounds with neon accent colors).
+
+Use high-contrast gradients, glowing borders, and soft ambient light effects.
+
+Maintain a “blockchain + gaming + high-tech” aesthetic.
+
+Large bold typography for hero, minimal clean body text.
+
+Use animated elements (particles, flowing lines, chain animations, or moving grids).
+
+Smooth scroll effects, fade-in, parallax, and micro-interactions.
+
+Maintain a luxury fintech / L1 blockchain style.
+
+Branding Requirements
+
+Brand Name: YourChain (placeholder)
+Tagline: “Next-Generation Layer-1 for Real-Time Apps”
+Accent Colors: Electric Blue (#30AFFF), Neon Purple (#A855F7), Lime Green (#71FF92)
+
+Pages / Sections to Generate
+
+Create full UI + content for each section.
+
+1. Hero Section
+
+Bold headline on the left, animation on the right.
+
+CTA buttons:
+
+“Buy Tokens”
+
+“Read Whitepaper”
+
+Subheading describing speed, scalability, and cross-chain features.
+
+Background with animated gradient or particle simulation.
+
+2. Key Features Section
+
+Three or four feature cards with icons:
+
+Ultra-fast Transactions (X TPS, low latency)
+
+Gaming-Optimized Chain
+
+Cross-Chain Bridge Support
+
+Security & Audited Smart Contracts
+
+3. Tokenomics Preview
+
+Donut chart
+
+Overview table
+
+Button: “View Full Tokenomics PDF”
+
+4. Ecosystem Section
+
+Large grid cards representing:
+
+Wallet
+
+Bridge
+
+Staking Portal
+
+dApp Builder
+
+NFT Marketplace
+
+Game SDK
+
+5. Presale / Get Tokens Section
+
+Presale timer
+
+Progress bar
+
+Soft cap & hard cap
+
+Supported currencies
+
+KYC + Audit badges
+
+6. Roadmap Section
+
+Timeline with upcoming milestones:
+
+Testnet Launch
+
+Mainnet Launch
+
+Bridge v1
+
+Developer Grants
+
+Game Partnerships
+
+7. Developer Section
+
+One short code snippet
+
+RPC endpoints
+
+SDK download cards
+
+Button: “Open Developer Docs”
+
+8. Press & Partners
+
+Grid of partner logos and media coverage placeholders.
+
+9. Footer
+
+Product links
+
+Docs
+
+Legal
+
+Social
+
+Company info
+
+UI / UX Requirements
+
+Sticky navigation bar.
+
+Mobile-responsive layouts following the same structure.
+
+Optimized spacing, grid system, consistent margins.
+
+Reusable components: cards, buttons, input fields, section headers.
+
+All animations must be smooth (CSS or GSAP preferred).
+
+Technical Requirements
+
+Generate full front-end code in:
+
+Vite + React + TailwindCSS
+
+Reusable React components for each section
+
+Dark mode enabled by default
+
+SEO-ready metadata + social preview (OpenGraph)
+
+Use placeholder images and icons (AI-safe)
+
+Output Expectations
+
+The AI should generate:
+
+Full responsive UI design in code
+
+Component structure (React)
+
+Tailwind-based styling
+
+Placeholder text & images
+
+Hero animations + interactive effects
+
+Dark futuristic theme
+
+Consistent branding following instructions
