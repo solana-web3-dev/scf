@@ -1,14 +1,21 @@
 import { Button } from "@/components/ui/button";
 import { FileText, Coins, Rocket, Sparkles } from "lucide-react";
 import heroImage from "@assets/generated_images/floating_crypto_coins_hero_visual.png";
+import { useState } from "react";
 
 export default function HeroSection() {
+  const scrollToSection = (href: string) => {
+    const element = document.querySelector(href);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <section className="relative min-h-screen pt-24 pb-16 overflow-hidden" id="about">
       <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-[hsl(var(--neon-purple)/0.1)]" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,hsl(var(--neon-blue)/0.15),transparent_50%)]" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,hsl(var(--neon-purple)/0.1),transparent_50%)]" />
-      
+
       <div className="absolute inset-0 opacity-20">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-[hsl(var(--neon-blue))] rounded-full blur-[128px]" />
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-[hsl(var(--neon-purple))] rounded-full blur-[128px]" />
@@ -33,8 +40,8 @@ export default function HeroSection() {
             </h1>
 
             <p className="text-lg text-muted-foreground max-w-lg">
-              Your gateway to building and launching dApps on Solana. We build our own services 
-              AND provide them to other creators. Launch pads, sniper bots, games, memecoin sites, 
+              Your gateway to building and launching dApps on Solana. We build our own services
+              AND provide them to other creators. Launch pads, sniper bots, games, memecoin sites,
               and token platforms - all in one ecosystem.
             </p>
 
@@ -47,14 +54,14 @@ export default function HeroSection() {
                 <Coins className="w-5 h-5 mr-2" />
                 Buy $SCF Tokens
               </Button>
-              <Button
+              <Button onClick={() => scrollToSection("#services")}
                 size="lg"
                 variant="outline"
                 className="border-border font-semibold"
                 data-testid="button-hero-whitepaper"
               >
                 <FileText className="w-5 h-5 mr-2" />
-                Read Whitepaper
+                Our Services
               </Button>
             </div>
 
